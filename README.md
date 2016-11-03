@@ -1,2 +1,2 @@
-# jenkinstests
-Repository for jenkins test chain
+# basket
+Unit test practice repo
