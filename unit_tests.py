@@ -44,8 +44,11 @@ class BasketTests(unittest.TestCase):
     # Let's test does our count_discount raise TypeError with wrong type
     def test_count_discount_error_handling(self):
         self.assertRaises(TypeError, self.keijon_ostoskori.count_discount_price, "55")
-            
-            
+		
+	def test_failure(self):
+        """Failure test failed...So success?"""
+        self.assertEqual(0, 1)
+                 
 
 if __name__ == '__main__':
     unittest.main()
