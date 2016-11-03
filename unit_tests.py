@@ -46,8 +46,8 @@ class BasketTests(unittest.TestCase):
         self.assertRaises(TypeError, self.keijon_ostoskori.count_discount_price, "55")
 		
 	def test_failure(self):
-        """Failure test failed...So success?"""
-        self.assertEqual(0, 1)
+		"""Failure test failed...So success?"""
+		self.assertEqual(0, 1)
                  
 
 if __name__ == '__main__':
